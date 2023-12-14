@@ -10,7 +10,7 @@ fun main(){
     var mutable: String = "Vicente";
     mutable = "Adrian";
 
-a=1;
+
 
 
 
