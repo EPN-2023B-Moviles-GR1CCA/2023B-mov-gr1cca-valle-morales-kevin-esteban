@@ -1,15 +1,15 @@
 {
   "project_info": {
     "project_number": "27196969131",
-    "project_id": "b2023-gr1acc-vaes-e2de8",
-    "storage_bucket": "b2023-gr1acc-vaes-e2de8.appspot.com"
+    "project_id": "b2023-gr1acc-kevm-e2de8",
+    "storage_bucket": "b2023-gr1acc-kevm-e2de8.appspot.com"
   },
   "client": [
     {
       "client_info": {
         "mobilesdk_app_id": "1:27196969131:android:2bbb18f32fe3ca77fce7ee",
         "android_client_info": {
-          "package_name": "com.example.gr1accvaes2023b"
+          "package_name": "com.example.gr1acckevm2023b"
         }
       },
       "oauth_client": [],

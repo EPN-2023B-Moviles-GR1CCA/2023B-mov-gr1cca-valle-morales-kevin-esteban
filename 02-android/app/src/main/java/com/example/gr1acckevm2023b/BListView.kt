@@ -1,4 +1,4 @@
-package com.example.gr1accvaes2023b
+package com.example.gr1acckevm2023b
 
 import android.content.DialogInterface
 import androidx.appcompat.app.AppCompatActivity
@@ -46,7 +46,7 @@ class BListView : AppCompatActivity() {
         super.onCreateContextMenu(menu, v, menuInfo)
         // Llenamos las opciones del menu
         val inflater = menuInflater
-        // inflater.inflate(R.menu.menu, menu)
+        inflater.inflate(R.menu.menu, menu)
         // Obtener el id del ArrayListSeleccionado
         val info = menuInfo as AdapterView.AdapterContextMenuInfo
         val posicion = info.position

@@ -1,4 +1,4 @@
-package com.example.gr1accvaes2023b
+package com.example.gr1acckevm2023b
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
