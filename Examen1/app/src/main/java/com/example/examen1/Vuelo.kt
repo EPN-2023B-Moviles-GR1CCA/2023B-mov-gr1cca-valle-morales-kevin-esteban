@@ -16,18 +16,6 @@ class Vuelo(
     val context: Context?
 ) {
 
-    // Constructor
-    /*init {
-        codVuelo
-        numeroIDVuelo
-        Retrasado
-        cantPasajeros
-        precioV
-        fechaSal
-        codAerolinea
-        context
-    }*/
-
     // Métodos Set
     fun setcodVuelo(cVuelo: Int) {
         this.codVuelo = cVuelo
@@ -196,7 +184,7 @@ class Vuelo(
                     "Cantidad de Pasajeros: ${cantPasajeros}\n" +
                     "Precio: ${precioV}\n" +
                     "Fecha de Salida: ${fechaSal}" +
-                    "Código de Aerolínea: ${codAerolinea}"
+                     "Código de Aerolínea: ${codAerolinea}"
 
 
         return salida

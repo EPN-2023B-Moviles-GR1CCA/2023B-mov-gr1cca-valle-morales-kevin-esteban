@@ -15,18 +15,6 @@ class Aerolinea(
     val context: Context?
 ) {
 
-    // Constructor
-    /*init {
-        //codAerolinea
-        nombreAL
-        Internacional
-        cantidadVuelos
-        ingresos
-        fechaFund
-        //numeroIDVuelo
-        context
-    }*/
-
     // Métodos Set
 
     fun setIdAerolinea(idAerolinea: Int) {
