@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#FFE5B4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BVuelo">
+
+    <TextView
+        android:id="@+id/textView_Vuelo"
+        android:layout_width="189dp"
+        android:layout_height="37dp"
+        android:background="#E6E6FA"
+        android:text="@string/anadir_vuelo"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <EditText
+        android:id="@+id/edt_codigoAerolinea"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:ems="10"
+        android:hint="@string/codigo_aerolinea"
+        android:inputType="number"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.133" />
+
+    <EditText
+        android:id="@+id/ed_numeroVuelo"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:hint="@string/numero_de_vuelo"
+        android:inputType="text"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="@+id/edt_codigoAerolinea"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/edt_codigoAerolinea"
+        app:layout_constraintTop_toBottomOf="@+id/edt_codigoAerolinea" />
+
+    <EditText
+        android:id="@+id/edt_retrasado"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:hint="@string/esta_retrasado_true_false"
+        android:inputType="text"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="@+id/ed_numeroVuelo"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/ed_numeroVuelo"
+        app:layout_constraintTop_toBottomOf="@+id/ed_numeroVuelo" />
+
+    <EditText
+        android:id="@+id/edt_cantidadPasajeros"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:hint="@string/cantidad_de_pasajeros"
+        android:inputType="number"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="@+id/edt_retrasado"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/edt_retrasado"
+        app:layout_constraintTop_toBottomOf="@+id/edt_retrasado" />
+
+    <EditText
+        android:id="@+id/edt_precio"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:hint="@string/precio"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="@+id/edt_cantidadPasajeros"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/edt_cantidadPasajeros"
+        app:layout_constraintTop_toBottomOf="@+id/edt_cantidadPasajeros" />
+
+    <EditText
+        android:id="@+id/edt_fechaSalida"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:hint="@string/fecha_salida"
+        android:inputType="text"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="@+id/edt_precio"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/edt_precio"
+        app:layout_constraintTop_toBottomOf="@+id/edt_precio" />
+
+    <Button
+        android:id="@+id/btn_InsertarVuelo"
+        android:layout_width="158dp"
+        android:layout_height="70dp"
+        android:text="@string/agregar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/edt_fechaSalida"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="@+id/edt_fechaSalida"
+        app:layout_constraintTop_toBottomOf="@+id/edt_fechaSalida"
+        app:layout_constraintVertical_bias="0.352" />
+
+    <TextView
+        android:id="@+id/textInfo"
+        android:layout_width="298dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/ingrese_los_datos"
+        android:textColor="#000000"
+
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_Vuelo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
