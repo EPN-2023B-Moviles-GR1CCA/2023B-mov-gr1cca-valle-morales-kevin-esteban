@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#77DD77"
+    tools:context=".BAerolinea">
+
+    <TextView
+        android:id="@+id/textView_Aerolinea"
+        android:layout_width="189dp"
+        android:layout_height="37dp"
+        android:background="#98FB98"
+        android:text="@string/aerolinea"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <EditText
+        android:id="@+id/editTextText_NombreAerolinea"
+        android:layout_width="269dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/nombre"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#263238"
+        app:layout_constraintBottom_toTopOf="@+id/editTextText_EsInternacional"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_Aerolinea"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <EditText
+        android:id="@+id/editTextText_EsInternacional"
+        android:layout_width="270dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/es_internacional_true_false"
+        android:inputType="text"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#263238"
+        app:layout_constraintEnd_toEndOf="@+id/editTextText_NombreAerolinea"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/editTextText_NombreAerolinea"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText_NombreAerolinea" />
+
+    <EditText
+        android:id="@+id/editTextText_VuelosAlDia"
+        android:layout_width="269dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/vuelos_al_dia"
+        android:inputType="number"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#263238"
+        app:layout_constraintEnd_toEndOf="@+id/editTextText_EsInternacional"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editTextText_EsInternacional"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText_EsInternacional" />
+
+    <EditText
+        android:id="@+id/editTextText_IngresosMensuales"
+        android:layout_width="269dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="@string/ingresos_mensuales"
+        android:inputType="numberDecimal"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#263238"
+        app:layout_constraintEnd_toEndOf="@+id/editTextText_VuelosAlDia"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editTextText_VuelosAlDia"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText_VuelosAlDia" />
+
+    <EditText
+        android:id="@+id/editTextText_FechaFundacion"
+        android:layout_width="269dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="@string/fecha_de_fundacion"
+        android:inputType="text|date"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#263238"
+        app:layout_constraintEnd_toEndOf="@+id/editTextText_IngresosMensuales"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/editTextText_IngresosMensuales"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText_IngresosMensuales" />
+
+    <Button
+        android:id="@+id/btnCrearAerolinea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/crear"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/editTextText_FechaFundacion"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="@+id/editTextText_FechaFundacion"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText_FechaFundacion"
+        app:layout_constraintVertical_bias="0.082" />
+
+    <ListView
+        android:id="@+id/lvView_Aerolinea"
+        android:layout_width="353dp"
+        android:layout_height="237dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnCrearAerolinea"
+        app:layout_constraintVertical_bias="0.185" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

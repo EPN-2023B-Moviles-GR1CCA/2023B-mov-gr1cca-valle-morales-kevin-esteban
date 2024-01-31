@@ -2,7 +2,6 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/id_layout_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#D53B3B">
@@ -81,5 +80,14 @@
         android:text="G. Maps"
         tools:layout_editor_absoluteX="287dp"
         tools:layout_editor_absoluteY="102dp" />
+
+    <Button
+        android:id="@+id/btn_intent_firebase_ui"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="F. Auth"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_ciclo_vida2"
+        app:layout_constraintTop_toTopOf="@+id/btn_ciclo_vida2"
+        tools:layout_editor_absoluteX="29dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
