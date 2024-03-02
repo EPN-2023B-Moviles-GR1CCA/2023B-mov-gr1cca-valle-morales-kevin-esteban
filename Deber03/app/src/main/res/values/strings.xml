@@ -1,9 +1,9 @@
 <resources>
     <string name="app_name">Deber03</string>
-    <string name="profile_name">Profile Name</string>
-    <string name="profile_dec">Description of the person</string>
+    <string name="profile_name">Kevin Valle</string>
+    <string name="profile_dec">Computer Science Student</string>
     <string name="post_timestamp">3h</string>
-    <string name="post_content">Implementation of Recycler view with multiple views using kotlin.</string>
+    <string name="post_content">Implementación de Recycler view con multiples views.</string>
     <string name="social_count">4,0852</string>
     <string name="comment_count">253 comments</string>
     <string name="like_text">Like</string>
@@ -17,9 +17,7 @@
     <string name="profile_name_1">Google</string>
     <string name="profile_dec_1">20,141,803 followers</string>
     <string name="post_timestamp_1">2d</string>
-    <string name="post_content_1">From coaching students in hackathons to mentoring local entrepreneurs,
-        Googlers in Indonesia, Singapore, Taiwan and the Philippines share how helping others can
-        lead you to learn more about yourself.
+    <string name="post_content_1">Descubre las últimas innovaciones de Google en inteligencia artificial y aprendizaje automático que están transformando la forma en que trabajamos y vivimos. Desde asistentes virtuales más inteligentes hasta herramientas de productividad revolucionarias, estamos impulsando el futuro con tecnología que hace la vida más fácil para todos. Únete a nosotros en el viaje hacia un mundo más conectado e inteligente. #Google #Innovación #IA #AprendizajeAutomático
     </string>
     <string name="social_count_1">1,478</string>
     <string name="comment_count_1">39 comments</string>
@@ -28,35 +26,36 @@
     <string name="profile_name_2">Apple</string>
     <string name="profile_dec_2">Consumer Electronics Cupertino, California 13,053,338 followers</string>
     <string name="post_timestamp_2">1d</string>
-    <string name="post_content_2">Apple is an equal opportunity employer that is committed to
-        inclusion and diversity. Visit jobs.apple.com to learn more.
+    <string name="post_content_2">Explora el mundo de la innovación con Apple. Desde dispositivos revolucionarios
+        hasta servicios que cambian la forma en que trabajamos y nos divertimos, estamos comprometidos con la excelencia y la creatividad en todo lo que hacemos. Únete a nosotros mientras seguimos elevando el listón en tecnología, diseño y accesibilidad, creando experiencias que enriquecen la vida de las personas en todo el mundo. #Apple #Innovación #Tecnología #Creatividad
     </string>
     <string name="social_count_2">12,235</string>
     <string name="comment_count_2">548 comments</string>
 
     //Post 3
-    <string name="profile_name_3">dscsrec</string>
-    <string name="profile_dec_3">135 followers</string>
+    <string name="profile_name_3">Samsung</string>
+    <string name="profile_dec_3">12,300,000 followers</string>
     <string name="post_timestamp_3">23h</string>
-    <string name="post_content_3">Hello everybody!
+    <string name="post_content_3">Hola a todos!
 
-        Being in this pandemic at the moment.. the only virtual gift we could give you on this
-        special day is episode 2 of our 90 seconds of learning - Season 1. Spend your Christmas
-        learning about Cloud computing!\n
-        Youtube Link : https://lnkd.in/ge8qS7T\n
+        Descubre un mundo de posibilidades con Samsung. Desde dispositivos móviles hasta soluciones empresariales de
+        vanguardia, estamos impulsando la innovación para enriquecer la vida de las personas y mejorar la forma en que trabajamos. Únete a nosotros mientras creamos tecnología que inspira, conecta y capacita a las personas de todo el mundo.\n
+         \n\n
 
-        DSC SREC wishes you all a Merry Christmas!✨ \n\n
+        #Samsung #Innovación #Tecnología #Conectividad
 
-        #dscsrec #90_seconds_of_learning #CloudComputing #ai_cloud_platform #developerstudentsclubs #learning
     </string>
     <string name="social_count_3">35</string>
     <string name="comment_count_3">12 comments</string>
 
     //Post 4
-    <string name="profile_name_4">dscsrec</string>
-    <string name="profile_dec_4">135 followers</string>
+    <string name="profile_name_4">Stack Builders</string>
+    <string name="profile_dec_4">11000 followers</string>
     <string name="post_timestamp_4">6h</string>
-    <string name="post_content_4">Hello everybody!\nTime is ticking join our virtual Android Study Jam
+    <string name="post_content_4">En Stack Builders, estamos impulsando la innovación en desarrollo de software. Nuestro equipo de ingenieros apasionados y expertos en tecnología crea soluciones personalizadas para empresas en todo el mundo. Desde aplicaciones web y móviles hasta análisis de datos y desarrollo de productos, estamos comprometidos con la excelencia técnica y la satisfacción del cliente.
+        Únete a nosotros en nuestro viaje para transformar ideas en realidades digitales.  \n
+
+        #StackBuilders #DesarrolloDeSoftware #Innovación #Tecnología
     </string>
     <string name="social_count_4">75</string>
     <string name="comment_count_4">16 comments</string>

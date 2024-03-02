@@ -29,7 +29,7 @@
                 android:id="@+id/header_profile_img"
                 android:layout_width="28dp"
                 android:layout_height="28dp"
-                android:src="@drawable/Foto_Kevin_CV" />
+                android:src="@drawable/foto_kevin" />
 
         </com.google.android.material.card.MaterialCardView>
 
