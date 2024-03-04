@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#D2B48C"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VerVuelo">
+
+    <TextView
+        android:id="@+id/tv_padreVerVuelo"
+        android:layout_width="290dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="44dp"
+        android:text="@string/listado_de_vuelos"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/lv_Vuelo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ListView
+        android:id="@+id/lv_Vuelo"
+        android:layout_width="322dp"
+        android:layout_height="442dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.463" />
+
+    <Button
+        android:id="@+id/btn_CrearVuelo"
+        android:layout_width="191dp"
+        android:layout_height="55dp"
+        android:background="#DAA520"
+        android:text="@string/crear_vuelo"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lv_Vuelo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

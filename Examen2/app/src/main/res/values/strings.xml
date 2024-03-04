@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Examen2</string>
+    <string name="crear_vuelo">Crear Vuelo</string>
+    <string name="es_internacional_true_false">¿Es Internacional? (true/false)</string>
+    <string name="vuelos_al_dia">Vuelos Al Dia</string>
+    <string name="ingresos_mensuales">Ingresos Mensuales</string>
+    <string name="aerolinea">Aerolínea</string>
+    <string name="crear">Crear</string>
+    <string name="fecha_de_fundacion">Fecha de Fundación</string>
+    <string name="nombre">Nombre</string>
+    <string name="editar">Editar</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="ver_vuelos">Ver Vuelos</string>
+    <string name="numero_de_vuelo">Numero de Vuelo</string>
+    <string name="esta_retrasado_true_false">¿Está Retrasado? (true/false)</string>
+    <string name="cantidad_de_pasajeros">Cantidad de Pasajeros</string>
+    <string name="precio">Precio</string>
+    <string name="fecha_salida">Fecha Salida</string>
+    <string name="agregar">Agregar</string>
+    <string name="codigo_aerolinea">Codigo Aerolinea</string>
+    <string name="cantidad_de_vuelos_diarios">Cantidad de vuelos diarios</string>
+    <string name="actualizar_aerolinea">Actualizar Aerolínea</string>
+    <string name="actualizar">Actualizar</string>
+    <string name="listado_de_vuelos">Listado de Vuelos</string>
+    <string name="actualizar_vuelo">Actualizar Vuelo</string>
+    <string name="title_activity_exampleactivity">exampleactivity</string>
+    <string name="anadir_vuelo">Añadir Vuelo</string>
+    <string name="app_aerolinea_vuelo">APP AEROLINEA - VUELO</string>
+    <string name="empezar">Empezar</string>
+    <string name="codigo_vuelo">Codigo de Vuelo</string>
+    <string name="ingrese_los_datos">Ingrese los datos:</string>
+</resources>
